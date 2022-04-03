@@ -1,0 +1,11 @@
+digraph "soundIn" {
+graph [splines=true];
+node [fontsize=16];
+node [fontname=Helvetica];
+edge [arrowhead=box,arrowsize=0.25];
+u_0 [shape=plaintext,color=yellow,label=<<TABLE BORDER="0" CELLBORDER="1"><TR><TD>NumOutputBuses</TD></TR><TR><TD PORT="o_0"></TD></TR></TABLE>>];
+u_1 [shape=plaintext,color=black,label=<<TABLE BORDER="0" CELLBORDER="1"><TR><TD>In</TD><TD PORT="i_0">bus:</TD></TR><TR><TD BORDER="0"></TD><TD PORT="o_0"></TD></TR></TABLE>>];
+u_2 [shape=plaintext,color=black,label=<<TABLE BORDER="0" CELLBORDER="1"><TR><TD>Out</TD><TD PORT="i_0">bus:4</TD><TD PORT="i_1">channelsArray:</TD></TR></TABLE>>];
+u_0:o_0 -> u_1:i_0 [color=yellow];
+u_1:o_0 -> u_2:i_1 [color=black];
+}
