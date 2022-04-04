@@ -48,7 +48,7 @@ The graphical user interface of the software provides the musician with three ma
   - **Feedback Mode**: button enables the artist to choose between the three different feedback setups implemented: Normal, Pitch Feedback and Cross Feedback.
 
 
-### Delay Modes
+## Delay Modes
 The harMMMLonizer also features three delay modes:
 - **Normal Feedback**: any input signal is routed to the Delay Line synthesizer, attenuated or boosted by feedbackAmount parameter and then again routed to the Delay Line synth, recursively.
   
