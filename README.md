@@ -3,7 +3,7 @@ Group 3 repository for the SC homework of CMLS 2022.
 
 # HarMMMLonizer
 
-HarMMMLonizer is a real-time harmonizer implemented in SuperCollider. The software implements a DSP system featuring mono input and stereo output. The DSP chain includes a delay line block which supports different feedback setups. Furthermore, a graphical user interface enables the musician to control available parameters, each specifically related to pitch shifting, delay effect and master. HarMMMLonizer supports three additional pitched voices to build the harmony, but a global variable within the code enables the programmer to change the number of voices. As the software is designed, this can be made without changing the software architecture and design (see figure above).
+HarMMMLonizer is a real-time harmonizer implemented in SuperCollider. The software implements a DSP system featuring mono input and stereo output. The DSP chain includes a delay line block which supports different feedback setups. Furthermore, a graphical user interface enables the musician to control available parameters, each specifically related to pitch shifting, delay effect and master. HarMMMLonizer supports three additional pitched voices to build the harmony, but a global variable within the code enables the programmer to change the number of voices. As the software is designed, this can be made without changing the software architecture and design (see figure below).
 
 <p align="center">
   <img width="800" height=auto src="./assets/images/fullHarmonizerGui.png">
